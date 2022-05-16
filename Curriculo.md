@@ -1,12 +1,22 @@
-# Informações Acadêmicas e Profissionais :books:
+# Informações Acadêmicas e Profissionais :man_office_worker:
 
 
 
-## Ensino Superior :mortar_board:
+## Escolaridade:mortar_board:
 
-• Engenharia Mecânica - Universidade Federal Fluminense (UFF) - 2018
+• Engenharia Mecânica - Universidade Federal Fluminense (UFF) - 2014 à 2018
 
-• Sistemas da Computação - Universidade Federal Fluminense (UFF) - Cursando
+• Sistemas da Computação - Universidade Federal Fluminense (UFF) - 2021 (Cursando)
+
+
+
+## Principais Soft skills
+
+* Inteligência Emocional
+* Comunicação clara e eficiente
+* Capacidade Analítica na Resolução de Problemas
+* Facilidade para trabalhar em grupo
+* Resiliência
 
 
 
@@ -27,13 +37,15 @@
 
 * Git / Github
 
+* MySql
+
   
 
 ## Projetos de Extensão
 
-* Monitoria de Resistência dos Materiais
+* Monitoria de Resistência dos Materiais I & II - UFF 2017
 
-* Iniciação Científica: Caracterização de Ligas a base de Zn
+* Iniciação Científica: Caracterização de Ligas a base de Zn - CAPES 2016
 
   
 
