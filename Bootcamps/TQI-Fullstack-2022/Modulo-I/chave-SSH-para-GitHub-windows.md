@@ -50,7 +50,7 @@ Para cria um par de  chaves SSH e sincronizá-las em sua máquina, primeiro voc�
 
   
 
-* Passo 4 - Abra sua página do GitHub, clique em "Settings" depois procure pelo item "SSH and GPG keys" e abra o link. Uma vez na página, clique em "New SSH key", digite um título de identificação para sua chave e no campo "key", cole o resultado da visualização do arquivo id_25519.pub obtida com o comando "cat" do passo 3.
+* Passo 4 - Abra sua página do GitHub, clique em "Settings" depois procure pelo item "SSH and GPG keys" e abra o link. Uma vez na página, clique em "New SSH key", digite um título de identificação para sua chave e no campo "key", cole o resultado da visualização do arquivo id_ed25519.pub obtida com o comando "cat" do passo 3.
 
   
 
@@ -76,7 +76,7 @@ Após criar e incluir sua chave pública no GitHub, precisamos iniciar um "agent
 
 * Passo 2 - Após startar nosso agente, ainda dentro da pasta  "/.ssh", precisamos passar o caminho da nossa **chave privada** que será utilizada pelo agente para autenticar nosso acesso via terminal Git. Digite no terminal:
 
-  <code>ssh-add id_25519</code>
+  <code>ssh-add id_ed25519</code>
 
   O terminal solicitará a senha da chave (criada no passo 1 da primeira etapa) e pronto. Nosso agente já tem as informações para liberar o acesso via SSH e sincronizar as ações com o GitHub.
 
