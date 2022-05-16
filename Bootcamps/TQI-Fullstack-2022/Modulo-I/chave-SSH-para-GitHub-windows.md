@@ -36,7 +36,7 @@ Para cria um par de  chaves SSH e sincronizá-las em sua máquina, primeiro voc�
 
   Neste momento o terminal está solicitando o local onde seu par de chaves SSH serão criados. Recomendamos deixar o local indicado e apenas clicar em Enter. **Digite uma senha para sua chave** e novamente pressione enter.
 
-  ![](img\ssh-1.PNG)
+  ![](img/ssh-1.PNG)
 
 
 
@@ -46,7 +46,7 @@ Para cria um par de  chaves SSH e sincronizá-las em sua máquina, primeiro voc�
 
 * Passo 3 - Utilize o comando "ls" ou "dir" para listar os arquivos salvos dentro da pasta. Deverá aparecer 2 arquivos: id_ed25519 (sua chave privada) e id_ed25519.pub (sua chave pública que será utilizada no GitHub) . Agora utilizaremos o comando "cat" para visualizar o conteúdo do arquivo id_e25519.pub, então copiaremos o resultado da visualização e colocaremos no GitHub.
 
-  ![](img\ssh-2.PNG)
+  ![](img/ssh-2.PNG)
 
   
 
@@ -56,7 +56,7 @@ Para cria um par de  chaves SSH e sincronizá-las em sua máquina, primeiro voc�
 
 * Passo 5 - Clique em "Add SSH key", o GitHub solicitará uma confirmação via usuário e senha, entre com seus dados e vua-lá! Chave SSH criada e incluída no GitHub. Mas calma que ainda é necessário realizar mais uma etapa antes de começar a usar sua chave.
 
-  ![](img\ssh-3.PNG)
+  ![](img/ssh-3.PNG)
 
   
 
@@ -82,7 +82,7 @@ Após criar e incluir sua chave pública no GitHub, precisamos iniciar um "agent
 
   
 
-  ![](C:\Users\Cleber\Desktop\bootcampTQIFULLSTACK\modulo_1\Projeto Meu Progresso\Evolucao-como-DEV\Bootcamps\TQI-Fullstack-2022\Modulo-I\img\ssh-4.PNG)
+  ![](img/ssh-4.PNG)
 
 
 
