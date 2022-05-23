@@ -5,7 +5,7 @@ O Bootcamp TQI Fullstack Developer é um programa gratuito para formação em de
 ## Pricipais tecnologias
 
 * Git / Github :heavy_check_mark:
-* HTML  / CSS3
+* HTML  / CSS3 :heavy_check_mark:
 * Javascript
 * ReactJS
 * MySql
