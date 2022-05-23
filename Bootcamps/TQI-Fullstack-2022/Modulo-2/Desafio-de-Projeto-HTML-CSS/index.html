@@ -1,0 +1,137 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Cleber Barros - Portfolium</title>
+<icon >
+<script>
+const element = document.getElementById("demostracao");
+
+var span = "<code> FULL_STACK DEV </code>";
+
+const myArray = span.split("");
+
+i = 0;
+
+setTimeout(ativaset, 3000);
+
+function ativaset() {
+					document.getElementById("demostracao").innerHTML = "";
+					i = 0;
+					stop = setInterval(hello, 100);
+}
+
+
+
+function hello() {
+		if (i == myArray.length) {clearInterval(stop);setTimeout(ativaset, 300*i);}
+		else {document.getElementById("demostracao").innerHTML += myArray[i];
+        i = i + 1;}
+        }
+		
+function trocaimg(fade,image,gear) {
+document.getElementById("banner").style = "animation: moveup 2s infinite ease-in-out, " + fade + " .5s ease-in-out forwards;";
+document.getElementById("imagemsocial").src = image;
+document.getElementById("gear_id").style = "animation: giro2 10s infinite, " + gear + " .5s ease-in-out forwards;";}
+
+function troca_cert(url_img) {
+document.getElementById("cert_img").src = url_img;
+
+}
+
+</script>
+
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+
+
+</head>
+
+<body>
+
+<header id="fundo_sec" class="fundo">
+
+
+<div class="engrenagens">
+	<div class="gear"><img src="img/gear_2.png"></div>
+	<div id="gear_id" class="gear"><img src="img/gear_1.png"></div>
+	<div class="gear"><img src="img/gear_3.png"></div>
+</div>
+
+<div id="banner"><img id="imagemsocial"></div>
+
+<div class="cab_text">
+	<h1>CLEBER BARROS</h1>
+	<h2><span id="demostracao"></span><span class="marcador">_</span></h2>
+	<label class="social-media">
+	<a href="https://www.linkedin.com/in/cleber-barros-b6251a163/" target="blank_" onmouseover="trocaimg('fadein','img/linked.png','fadeout')" onmouseout="trocaimg('fadeout','img/linked.png','fadein')">LinkedIn</a>
+	<a href="https://github.com/cleberbarros1" target="blank_" onmouseover="trocaimg('fadein','img/git.png','fadeout')" onmouseout="trocaimg('fadeout','img/git.png','fadein')">GitHub</a>
+</label>
+</div>
+
+
+<div class="containter-buble">
+
+<div class="container-do-hamburguer">
+	<input type="checkbox" id="toggle">
+	<label for="toggle" class="checkbox">
+	<div class="barrinhas"></div>
+	<div class="barrinhas"></div>
+	<div class="barrinhas"></div>
+	</label>
+	<div class="buble"></div>
+
+	<nav class="menu-buble">
+	<ul>
+	<li><a href="index.html">Homme</a></li>
+	<li><a href="#">Sobre</a></li>
+	<li><a href="https://github.com/cleberbarros1" target="blank_" >Projetos</a></li>
+	</ul>
+	</nav>
+</div>
+</div>
+
+</header>
+
+<main class="container">
+	<div id="titulo_main" class="container-item">More info</div>
+	
+	<div class="container-item">
+		<div class="container-text">
+		<p>TQI Fullstack Developer - 2022<span class="marcador">_</span></p>
+		<p>O Bootcamp TQI Fullstack Developer é um programa gratuito para formação em desenvolvimento fullstack e recrutamento de desenvolvedores juniores pela TQI. O programa apresenta cursos, desafios práticos e mentorias em tecnologias essenciais para front-end e back-end, além de banco de dados e introdução à Quality Assurance (QA) para testes e qualidade. <span class="marcador">_</span></p>
+		</div>
+		<div class="container-card"><img class="card" src="img/TQI_shield.png"></div>
+	</div>
+	
+	<div class="container-item">
+		<div class="container-card"><img id="cert_img" class="card" src="img/A_01.png"></div>
+		<div class="container-text">
+		<p>Certificações<span class="marcador">_</span></p>
+		<p>O Bootcamp conta com um total módulos 8 móulos. Abaixo seguem as certificações já obtidas:<span class="marcador">_</span>
+		<ul>
+		<li>Módulo I: <a onmouseover="troca_cert('img/A_01.png')">A1</a> /<a onmouseover="troca_cert('img/A_02.png')">A2</a> /<a onmouseover="troca_cert('img/A_03.png')">A3</a> /<a onmouseover="troca_cert('img/A_04.png')">A4</a> /<a onmouseover="troca_cert('img/A_05.png')">A5</a></li>
+		<li>Módulo II:  <a onmouseover="troca_cert('img/B_01.png')">B1</a> /<a>B2</a> </li>
+		<li>Módulo III: </li>
+		<li>Módulo IV: </li>
+		<li>Módulo V: </li>
+		<li>Módulo VI: </li>
+		<li>Módulo VII: </li>
+		<li>Módulo VIII: </li>
+
+		</p>
+		</div>
+	</div>
+	
+	<div class="container-item">
+		<div class="container-text">
+		<p>Próximos passos: Rumo ao Javascript!<span class="marcador">_</span></p>
+		<p>Finalizando o Módulo II em (22/05/2022) com esse projeto e o próximo desafio será o Módulo III onde o objetivo será aprender Javascript!<span class="marcador">_</span></p>
+		</div>
+		<div class="container-card"><img class="card" src="img/JS_shield.png"></div>
+	</div>
+</main>
+
+<footer class="footer"> Feito por Cleber Barros
+</footer>
+</body>
+<html>
