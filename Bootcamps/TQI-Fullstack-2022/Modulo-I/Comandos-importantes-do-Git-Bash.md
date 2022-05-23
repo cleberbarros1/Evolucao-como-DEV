@@ -18,3 +18,4 @@
 * git remote add origin "link do repositório": adiciona um endereço no origin
 * git remote -v: verifica qual endereço está no origin
 * git remote remove origin: remove link atual do origin
+* git push origin main (ou master): Empurra o novo commit de modificações do diretorio para o GitHub
