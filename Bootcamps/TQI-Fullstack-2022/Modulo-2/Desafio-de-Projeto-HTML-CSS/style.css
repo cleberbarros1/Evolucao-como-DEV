@@ -372,6 +372,11 @@ a:nth-child(2):hover {
 	width: 80%;		
 }
 
+.container-item ul li {
+margin-top: 15px;
+font-size: 20px;
+}
+
 .container-item a {
 		text-decoration: none;
 		cursor: pointer;
