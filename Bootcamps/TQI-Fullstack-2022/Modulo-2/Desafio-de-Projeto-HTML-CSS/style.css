@@ -1,5 +1,5 @@
 h1, h2 {
-	color: black;
+	color: rgb(245, 242, 242);
 	z-index: 1;
 }
 
@@ -139,8 +139,9 @@ body {
 .fundo {
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(180deg, #ffffff 80%, #0C89E8) no-repeat;
-	background-size: 100% 200%;
+	background: linear-gradient(45deg, #ffffff, #0C89E8, #088d30, #adab06, #fd3300,#fd00be,#222021, #0c0c0c) no-repeat;
+	filter: saturate(.7) brightness(1);
+	background-size: 400% 400%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -154,17 +155,17 @@ body {
 
 @keyframes transladaFundo{
 	0% {
-		background-position: 0% 90%;
+		background-position: 0% 10%;
 
 		
 	}
 	50% {
-		background-position: 80% 100%;
+		background-position: 100% 100%;
 
 		
 	}
 	100% {
-		background-position: 0% 90%;
+		background-position: 0% 10%;
 
 	}
 }
@@ -178,9 +179,9 @@ body {
 }
 
 .social-media a{
-	border: 2px solid black;
+	border: 2px solid rgb(250, 248, 248);
 	text-decoration: none;
-	color: black;
+	color: rgb(248, 245, 245);
 	font-size: 24px;
 	padding: 1rem 4rem;
 	min-width: 4rem;
@@ -403,12 +404,12 @@ a:nth-child(2):hover {
 #cert_img:hover {
 	transform: translate(-10px, -10px);
 	filter: grayscale(0%);
-	max-width: 600px;
+	max-width: 500px;
 	
 }
 
 .container-text {
-	max-width: 40%;
+	max-width: 50%;
 	display: flex;
 	letter-spacing: 1px;
 	font-size: 18px;
@@ -425,7 +426,7 @@ a:nth-child(2):hover {
 
 
 @media (max-width: 800px) {
-	.container-item: {
+	.container-item {
 		flex-direction: column;
 	}
 	

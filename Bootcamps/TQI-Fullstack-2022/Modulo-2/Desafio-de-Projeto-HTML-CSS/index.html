@@ -2,47 +2,9 @@
 <html>
 <head>
 <title>Cleber Barros - Portfolium</title>
-<icon >
-<script>
-const element = document.getElementById("demostracao");
 
-var span = "<code> FULL_STACK DEV </code>";
-
-const myArray = span.split("");
-
-i = 0;
-
-setTimeout(ativaset, 3000);
-
-function ativaset() {
-					document.getElementById("demostracao").innerHTML = "";
-					i = 0;
-					stop = setInterval(hello, 100);
-}
-
-
-
-function hello() {
-		if (i == myArray.length) {clearInterval(stop);setTimeout(ativaset, 300*i);}
-		else {document.getElementById("demostracao").innerHTML += myArray[i];
-        i = i + 1;}
-        }
-		
-function trocaimg(fade,image,gear) {
-document.getElementById("banner").style = "animation: moveup 2s infinite ease-in-out, " + fade + " .5s ease-in-out forwards;";
-document.getElementById("imagemsocial").src = image;
-document.getElementById("gear_id").style = "animation: giro2 10s infinite, " + gear + " .5s ease-in-out forwards;";}
-
-function troca_cert(url_img) {
-document.getElementById("cert_img").src = url_img;
-
-}
-
-</script>
-
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" />
 <meta charset="utf-8">
-
 
 </head>
 
@@ -104,20 +66,23 @@ document.getElementById("cert_img").src = url_img;
 	</div>
 	
 	<div class="container-item">
-		<div class="container-card"><img id="cert_img" class="card" src="img/A_01.png"></div>
+		<div class="container-card"><img id="cert_img" class="card" src="img/A_01.png" alt="Imagem Certificado" ></div>
 		<div class="container-text">
 		<p>Certificações<span class="marcador">_</span></p>
 		<p>O Bootcamp conta com um total módulos 8 móulos. Abaixo seguem as certificações já obtidas:<span class="marcador">_</span>
 		<ul>
 		<li>Módulo I: <a onmouseover="troca_cert('img/A_01.png')">A1</a> /<a onmouseover="troca_cert('img/A_02.png')">A2</a> /<a onmouseover="troca_cert('img/A_03.png')">A3</a> /<a onmouseover="troca_cert('img/A_04.png')">A4</a> /<a onmouseover="troca_cert('img/A_05.png')">A5</a></li>
+		
 		<li>Módulo II:  <a onmouseover="troca_cert('img/B_01.png')">B1</a> /<a onmouseover="troca_cert('img/B_02.png')">B2</a> </li>
-		<li>Módulo III: </li>
+			
+		<li>Módulo III: <a onmouseover="troca_cert('img/C_01.png')">C1</a> /<a onmouseover="troca_cert('img/C_02.png')">C2</a> /<a onmouseover="troca_cert('img/C_03.png')">C3</a> /<a onmouseover="troca_cert('img/C_04.png')">C4</a> /<a onmouseover="troca_cert('img/C_05.png')">C5</a> /<a onmouseover="troca_cert('img/C_06.png')">C6</a> /<a onmouseover="troca_cert('img/C_07.png')">C7</a> /<a onmouseover="troca_cert('img/C_08.png')">C8 /<a onmouseover="troca_cert('img/C_09.png')">C9</a> /<a onmouseover="troca_cert('img/C_10.png')">C10</a> /<a onmouseover="troca_cert('img/C_11.png')">C11</a></li>
+			
 		<li>Módulo IV: </li>
+			
 		<li>Módulo V: </li>
 		<li>Módulo VI: </li>
 		<li>Módulo VII: </li>
 		<li>Módulo VIII: </li>
-
 		</p>
 		</div>
 	</div>
@@ -129,9 +94,22 @@ document.getElementById("cert_img").src = url_img;
 		</div>
 		<div class="container-card"><img class="card" src="img/JS_shield.png"></div>
 	</div>
+
+	<div class="container-item">
+		<div class="container-card"><img class="card" src="img/RJS_shield.png"></div>
+		<div class="container-text">
+		<p>JS finalizado, vamos para o ReactJS<span class="marcador">_</span></p>
+		<p>Finalizado o módulo III com um desafio de código, onde foram apresentados casos a serem resovlidos com JS e entregue um projeto de jogo da memória utilizando apenas HTML / CSS / JS. Próximo passo é o ReactJS. Vamos em frente!<span class="marcador">_</span>
+
+		</p>
+		</div>
+	</div>
+
+	
 </main>
 
 <footer class="footer"> Feito por Cleber Barros
 </footer>
 </body>
+<script src="script.js"></script>
 <html>
