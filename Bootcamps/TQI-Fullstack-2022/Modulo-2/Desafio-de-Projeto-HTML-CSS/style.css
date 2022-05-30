@@ -19,7 +19,7 @@ font-size: 23px;
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-	position: absolute;
+	position: absol;
 }
 
 body {
@@ -34,7 +34,6 @@ body {
 }
 
 #banner {
-	top: 50px;
 	position: absolute;
 	opacity: 1;
 }
@@ -48,9 +47,10 @@ body {
 	/*background-color: green;*/
 	top: 0px;
 	display: flex;
-	position: absolute;
+	position: relative;
 	justify-content: center;
 	align-items: center;
+	border: 2px solid white;
 	
 }
 
@@ -145,7 +145,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	position: relative;
 	animation: transladaFundo 8s infinite ease-in-out;
 	z-index: 1;
@@ -456,12 +456,22 @@ font-size: 20px;
 	max-width: 90%;
 	text-align: center;
 	
-}
+	}
 
-.gear:nth-child(2) img {
+	.gear:nth-child(2) img {
 	width: 150px;
 	
-}
+	}
+
+	.gear:nth-child(3) {
+	right: 30px;
+	top: 0px;
+	}
+
+	#banner img {
+		width: 90px;
+	}
+
 }
 
 
