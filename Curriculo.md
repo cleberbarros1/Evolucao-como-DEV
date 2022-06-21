@@ -22,7 +22,7 @@
 
 ## Idiomas 
 
-* Inglês Fluente
+* Inglês Avançado
 * Português Nativo
 
 
@@ -33,7 +33,9 @@
 
 * HTML5 / CSS3
 
-* Javascript
+* JavaScript
+
+* ReactJS
 
 * Git / Github
 
