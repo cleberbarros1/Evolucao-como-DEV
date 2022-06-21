@@ -19,7 +19,7 @@ Projeto disponível na plataforma não contempla a pasta "node_modules", porém 
 
 Extensões utilizadas para a confecção do projeto foram:
 
-* Syled-components
+* Styled-components
 * Axios
 
 
